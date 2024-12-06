@@ -1,0 +1,131 @@
+.item 
+{
+    position: relative;
+    height: 40vh;
+    border: 1px solid gray;
+    display: flex;
+    
+}
+
+.grid_container
+{
+    display: flex;
+}
+
+.section
+{
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+   
+   
+}
+
+.item img{
+    width: 40%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.icon
+{
+    display: flex;
+    position: relative;
+    margin-top: 20px;
+}
+
+.icon i{
+    position: absolute;
+    bottom:-15px;
+    color: rgb(214, 203, 203)
+    
+    
+}
+
+
+.icon p{
+    position: absolute;
+    left:17px;
+    color: rgb(214, 203, 203)
+    
+}
+
+.section h1{
+    margin-bottom: 5px;
+}
+
+
+.section p{
+    margin-top: 0;
+}
+
+
+.section img{
+    width: 17%;
+    height: auto;
+    position: absolute;
+    bottom: 0;
+    
+}
+
+
+
+.cont1{
+    position: relative;
+    background-color: rgb(255, 98, 0);
+}
+
+.cont1 img{
+    position: absolute;
+    top: 7vh;
+}
+
+.cont1 div{
+    font-size: 10px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 4vw;
+    top: 8vh;
+
+   
+}
+
+.cont2{
+    position: relative;
+    background-color: rgb(255, 98, 0);
+}
+
+.cont2 img{
+    position: absolute;
+    top: 10vh;
+}
+
+.cont2 div{
+    font-size: 10px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 4vw;
+    top: 11vh;
+}
+
+.cont3{
+    position: relative;
+    background-color: rgb(255, 98, 0);
+}
+
+.cont3 img{
+    position: absolute;
+    top: 3vh;
+}
+
+.cont3 div{
+    font-size: 10px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 4vw;
+    top: 4vh;
+}
+

@@ -1,0 +1,181 @@
+* {
+    box-sizing: border-box;
+  }
+
+.Container
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1vw;
+
+}
+
+
+
+.Dashboard
+{
+    background-color: rgb(26, 134, 242);
+    width: 13vw;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+.Charts
+{
+    background-color: rgb(28, 219, 168);
+    width: 20vw;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+.Dashboard svg ,.Charts svg ,.Tables svg ,.Widgets svg ,.FullWidth svg
+.Forms svg ,.Buttons svg ,.Elements svg,.Calender svg ,.Errors svg{
+    color: aliceblue;
+     
+}
+
+.Dashboard p,.Charts p,.Tables p ,.Widgets p ,.FullWidth p,.Forms p
+,.Buttons p,.Elements p,.Calender p ,.Errors p{
+    font-size: 10px;
+    color: aliceblue;
+}
+
+.Widgets
+{
+    background-color:rgb(255, 216, 0);
+    width: 11vw;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Tables
+{
+    background-color:rgb(233, 72, 8);
+    width: 11vw;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.FullWidth
+{
+    background-color:rgb(5, 72, 173);
+    width: 11vw;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.Forms
+{
+    background-color:rgb(225, 60, 14);
+    width:28vw;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.Buttons
+{
+    background-color:rgb(22, 22, 199);
+    width:16vw;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+.Elements 
+{
+    background-color:rgb(36, 144, 232);
+    width:16vw;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.Calender
+{
+    background-color:rgb(39, 234, 153);
+    width:17vw;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Errors
+{
+    background-color:rgb(249, 241, 77);
+    width:15vw;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.points
+{
+    background-color: aliceblue;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;;
+}
+
+
+.cont {
+    display: flex;
+    flex: 1 1 calc(50% - 10px);
+    gap: 10px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.person,.Add,.basket,.signal,.table,.Earth
+{
+    color: aliceblue;
+    background-color: rgb(52, 51, 51);
+    width: 12vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.halfPage
+{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
